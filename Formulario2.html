@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Preencha o Formulario</h1> <br><br>
+    <form align="left" action="" method="get">
+        <fieldset>
+            <legend>
+                Dados Pessoais
+            </legend>
+
+            <label for="txt_nome">Nome:</label>
+            <input type="text" name="txt_nome" id="txt_nome">
+
+            <label for="txt_sobrenome">Sobrenome:</label>
+            <input type="text" name="txt_sobrenome" id="txt_sobrenome"><br>
+
+            <!-- Data de Nascimento -->
+            <label for="txt_nascimento">Nascimento:</label>
+            <input placeholder="dd" size="2px" type="text" name="txt_nascimento" id="txt_nascimento">
+            <input placeholder="mm" size="2px" type="text" name="txt_nascimento" id="txt_nascimento">
+            <input placeholder="yyyy" size="2px" type="text" name="txt_nascimento" id="txt_nascimento"><br>
+            <!-- RG -->
+            <label for="txt_cpf">RG:</label>
+            <input type="text" name="txt_rg" id="txt_rg"><br>
+            <!-- CPF-->
+            <label for="txt_rg">CPF:</label>
+            <input type="text" name="txt_cpf" id="txt_cpf">
+            <label for="txt_rg">-</label>
+            <input size="1px" type="text" name="txt_cpf" id="txt_cpf"><br>
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>
+                Dados de Endereço
+            </legend>
+
+            <label for="txt_rua">Rua:</label>
+            <input type="text" name="txt_rua" id="txt_rua">
+
+            <label for="txt_numero">Numero:</label>
+            <input size="2px" type="text" name="txt_numero" id="txt_numero"><br>
+
+            <label for="txt_bairro">Bairro:</label>
+            <input type="text" name="txt_bairro" id="txt_bairro"><br>
+
+            <label for="slt_uf">Estados</label>
+            <select name="slt_uf" id="slt_uf">
+                <option value="">Selecione...</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select> <br>
+
+            <label for="txt_Cidade">Cidade:</label>
+            <input type="text" name="txt_Cidade" id="txt_Cidade"><br>
+
+            <label for="txt_cep">CEP:</label>
+            <input size="4px" type="text" name="txt_cpf" id="txt_cep">
+            <label for="txt_cep">-</label>
+            <input size="2px" type="text" name="txt_cep" id="txt_cep"><br>
+
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>
+                Dados de Login
+            </legend>
+
+            <label for="txt_email">Email:</label>
+            <input type="email" name="txt_email" id="txt_email"><br>
+
+            <label for="txt_imagem">Imagem de Perfil</label>
+            <button id="btn_enviar" name="btn_enviar" type="submit">Escolher arquivo</button> Nenhum arquivo selecionado
+            <br>
+
+            <!-- Data de Nascimento -->
+            <label for="txt_login">Login de usuário:</label>
+            <input type="text" name="txt_login" id="txt_login"><br>
+            <!-- RG -->
+            <label for="txt_senha">Senha:</label>
+            <input type="text" name="txt_senha" id="txt_senha"><br>
+            <!-- CPF-->
+            <label for="txt_csenha">Confirme a senha::</label>
+            <input type="text" name="txt_csenha" id="txt_csenha">
+        </fieldset>
+        <button id="btn_enviar" name="btn_enviar" type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+</body>
+
+</html>

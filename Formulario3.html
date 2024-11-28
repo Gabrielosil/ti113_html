@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario3</title>
+</head>
+
+<body>
+    <h1>Agendamento para banho e tosa</h1>
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+    <form action="" method="get">
+        <fieldset>
+            <legend>
+                Identificação do dono do animal
+            </legend><br>
+
+            <label for="txt_nome">Nome:</label>
+            <input size="40px" type="text" placeholder="Digite o nome completo do dono do animal" name="txt_nome"
+                id="txt_nome"><br><br>
+
+            <label for="txt_endereco">Endereço:</label>
+            <input size="40px" type="text" placeholder="Digite o endereço" name="txt_endereco"
+                id="txt_endereco"><br><br>
+
+            <label for="txt_cep">CEP:</label>
+            <input size="9px" type="text" placeholder="XXXXX-XXX" name="txt_cep" id="txt_cep"><br><br>
+
+            <label for="txt_email">E-mail:</label>
+            <input size="40px" type="text" placeholder="Digite o endereço de email" name="txt_email"
+                id="txt_email"><br><br>
+
+            <label for="txt_Telefone">Telefone:</label>
+            <input size="10px" type="tel" placeholder="99 99999-9999" name="txt_Telefone" id="txt_Telefone">
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>
+                Animal
+            </legend> <br>
+
+            <label for="txt_nomec">Nome:</label>
+            <input size="20px" type="text" placeholder="Digite o nome do animal" name="txt_nomec"
+                id="txt_nomec"><br><br>
+
+            <label for="rdb_raca">Porte do cão:</label>
+            <input required type="radio" name="rdb_raca" id="rdb_p">
+            <label for="rdb_p">pequeno</label>
+
+            <input required type="radio" name="rdb_raca" id="rdb_m">
+            <label for="rdb_m">médio</label>
+
+            <input required type="radio" name="rdb_raca" id="rdb_g">
+            <label for="rdb_g">grande</label><br><br>
+
+            <label for="slt_tosa">Tipo de tosa</label>
+            <select name="slt_tosa" id="slt_tosa">
+                <option value="">Nenhuma</option>
+                <option value="TH">Tosa higiênica</option>
+                <option value="TT">Tosa na tesoura</option>
+                <option value="TM">Tosa na máquina</option>
+                <option value="TB">Tosa bebê</option>
+                <option value="TR">Tosa de raça</option>
+                <option value="TV">Tosa verão</option>
+            </select> <br><br>
+
+            <label for="txt_observacao">Observação:</label>
+            <textarea placeholder="Digite alguma informação sobre o" name="txt_observacao" id="txt_observacao" cols="15"
+                rows="2"></textarea><br>
+
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>
+                Horário -(Não atendemos de domingo e segunda-feira)
+            </legend> <br>
+
+            <label for="txt_email">Indique os dias da semana de sua preferência:</label><br>
+            <input type="checkbox" name="chk_terca" id="chk_terca">
+            <label for="chk_terca">Terça-feira</label>
+
+            <input type="checkbox" name="chk_quarta" id="chk_quarta">
+            <label for="chk_quarta">Quarta-feira</label>
+
+            <input type="checkbox" name="chk_quinta" id="chk_quinta">
+            <label for="chk_quinta">Quinta-feira</label>
+
+            <input type="checkbox" name="chk_sexta" id="chk_sexta">
+            <label for="chk_sexta">Sexta-feira</label>
+
+            <input type="checkbox" name="chk_sabado" id="chk_sabado">
+            <label for="chk_sabado">Sabado</label><br><br>
+
+            <label for="txt_phorario">Primeira opção de hórario:</label>
+            <input type="date" name="txt_phorario" id="txt_phorario">
+            <br><br>
+            <label for="txt_shorario">Segunda opção de hórario:</label>
+            <input type="date" name="txt_shorario" id="txt_shorario">
+            <br>
+        </fieldset>
+        <button id="btn_enviar" name="btn_enviar" type="submit">Enviar</button>
+
+    </form>
+
+</body>
+
+</html>
