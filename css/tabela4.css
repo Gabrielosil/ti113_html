@@ -1,14 +1,44 @@
-h1{
-color: black;
+h1 {
+    color: black;
 }
 
-h2{
-color: rgb(138, 140, 143);}
+h2 {
+    color: rgb(92, 94, 97);
+}
 
-h4{
-color: rgb(163, 163, 156);}
+h4 {
+    color: rgb(163, 163, 156);
+}
 
-div{
-background-color: rgb(99, 98, 98);
-padding-top: 20px;
-padding-bottom: 20px;}
+div {
+    background-color: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*.botoes{
+background-color: blueviolet;
+color: white;
+padding: 10px 5px 10px 5px;
+} */
+
+#btn1{
+    font-size: 15px;
+    color: red;
+    background-color: white;
+    padding: 10px 5px 10px 5px;
+}
+
+#btn2{
+    font-size: 10px;
+    color: blue;
+    background-color: yellow;
+    padding: 10px 5px 10px 5px
+}
+
+#btn3{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 10px 5px 10px 5px
+}
